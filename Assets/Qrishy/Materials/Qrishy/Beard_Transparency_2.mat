@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Beard_Transparency_2
+  m_Shader: {fileID: 4800000, guid: fe04871bf6daa7142907064b6f4bfadd, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CLIPQUALITY_DITHERED
+  m_InvalidKeywords:
+  - _ALPHATEST_ON
+  - _ALPHATOMASK_ON
+  - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
+  - _ENABLE_FOG_ON_TRANSPARENT
+  - _ENUMCLIPQUALITY_ON_DITHER
+  - _SURFACE_TYPE_TRANSPARENT
+  - _TRANSPARENT_WRITES_MOTION_VEC
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlendMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMap:
+        m_Texture: {fileID: 2800000, guid: cb725235477d05741a9577b1cba31514, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: b4deeb6f8ccbbb2408a0ae0a26bb8903, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IDMap:
+        m_Texture: {fileID: 2800000, guid: 0d78894e45d56434281b0f30ad81fcf0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 1a86757a77d6f6c428d68d321e06a141, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RootMap:
+        m_Texture: {fileID: 2800000, guid: d612b389c514fdb4dbaef87de724ac6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BOOLEAN_ENABLECOLOR: 0
+    - _AOOccludeAll: 1
+    - _AOStrength: 0.9
+    - _AlphaClip2: 0.666
+    - _AlphaCutoff: 0.5
+    - _AlphaPower: 1.5
+    - _AlphaRemap: 1
+    - _BaseColorStrength: 1
+    - _BlendStrength: 0
+    - _ClipQuality: 1
+    - _DiffuseStrength: 1
+    - _EndColorStrength: 1
+    - _FlowMapFlipGreen: 0
+    - _GlobalStrength: 1
+    - _HighlightAOverlapEnd: 1
+    - _HighlightAOverlapInvert: 0.537
+    - _HighlightAStrength: 0.24
+    - _HighlightBOverlapEnd: 0
+    - _HighlightBOverlapInvert: 0
+    - _HighlightBStrength: 0.879
+    - _HighlightBlend: 1
+    - _InvertRootMap: 0
+    - _NormalStrength: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RimPower: 4
+    - _RimTransmissionIntensity: 3.011976
+    - _RootColorStrength: 1
+    - _ShadowClip: 0.5
+    - _SmoothnessMax: 1
+    - _SmoothnessMin: 0.44171488
+    - _SmoothnessPower: 1.5
+    - _SpecularMix: 0.5
+    - _SpecularMultiplier: 0.05376
+    - _SpecularPowerScale: 4
+    - _SpecularShiftMax: -0.13
+    - _SpecularShiftMin: -0.2
+    - _TessEdgeLength: 16
+    - _TessPhongStrength: 0.5
+    - _Translucency: 0.25
+    - _VertexColorStrength: 1
+    m_Colors:
+    - _DiffuseColor: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EndColor: {r: 0.31027776, g: 0.2297351, b: 0.16618572, a: 1}
+    - _HighlightAColor: {r: 0.99999994, g: 0.97189605, b: 0.8904402, a: 1}
+    - _HighlightADistribution: {r: 0.76790005, g: 0.76790005, b: 1, a: 0}
+    - _HighlightBColor: {r: 0.96469975, g: 0.9426719, b: 0.8904402, a: 1}
+    - _HighlightBDistribution: {r: 0.24280001, g: 1, b: 1.0001, a: 0}
+    - _RootColor: {r: 0.3892968, g: 0.2402475, b: 0.1318038, a: 1}
+    - _SpecularTint: {r: 1, g: 0.8907134, b: 0.8088441, a: 1}
+    - _VertexBaseColor: {r: 0.16618572, g: 0.08494474, b: 0, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &4251183514297697198
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
